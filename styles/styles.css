@@ -41,6 +41,10 @@ figure.left {
     float: left;
 }
 
+figure.right{
+    float: center;
+}
+
 .red-heading{
     color:red;
 }
