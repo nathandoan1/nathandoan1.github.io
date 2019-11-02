@@ -6,7 +6,6 @@ main{
     border: solid black;
     border-radius: 15px;
     margin: 5px 5px 5px -2px;
-    padding: 2px;
 }
 h1{
     color: aliceblue;
@@ -27,6 +26,7 @@ a.back{
 }
 p{
     font: aliceblue;
+    font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     text-align: left;
     padding: 15px;
@@ -37,6 +37,9 @@ footer{
     border: solid 1px black;
     border-radius: 10px;
     padding: 10px;
+}
+img{
+    float:right;
 }
 #nav-home {        
     background-color: aliceblue;
@@ -87,4 +90,38 @@ footer{
 #p-about{
     padding: 10px;
     margin: 0px;
+}
+#img-story{
+    float:left;
+    margin: 0px 0px 0px 10px;
+    padding: 6px;
+}
+#img-story2{
+    margin: 0px 0px 0px 600px;
+}
+#no{
+    color: blue;
+}
+#main-story{
+    background-color: aliceblue;
+    border: solid black;
+    border-radius: 15px;
+    margin: 5px 5px 5px -2px;
+    padding: 70px;
+}
+#p-story{
+    padding: 50px;
+}
+p.characters{
+    float:left;
+}
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
 }
