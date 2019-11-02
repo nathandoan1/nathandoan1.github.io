@@ -91,7 +91,7 @@ img{
     padding: 10px;
     margin: 0px;
 }
-#img-story{
+img.story{
     float:left;
     margin: 0px 0px 0px 10px;
     padding: 6px;
@@ -99,7 +99,7 @@ img{
 #img-story2{
     margin: 0px 0px 0px 600px;
 }
-#no{
+p.no{
     color: blue;
 }
 #main-story{
