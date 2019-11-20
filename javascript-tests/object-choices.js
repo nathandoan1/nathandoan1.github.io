@@ -1,8 +1,21 @@
+windows.onload = () => {
+
+    const simpleObjectDisplay = document.getElementById('simpleObjectDisplay');
+    const simpleObjectAction = document.getElementById('simpleObjectAction')
+    
+
 const simpleObject = {
+    firstName: 'James',
+    lastName: 'Watson',
     sayName: function() {
-        console.log("Simple Object");
+        const fullName = this.firstName + "" + this.lastName;
+        console.log(fullName);
+        simpleObjectDisplay.textContent = fullName;
     }
 };
+simpleObjectAction.onclick = function() {
+    simpleObject.sayName();
+}
 
 simpleObject.dynamicMethod = () => {
     console.log('Dynamic Method');
@@ -28,3 +41,5 @@ functionObject.sayName();
 
 const customClass = new CustomClass();
 customClass.sayName();
+
+}
