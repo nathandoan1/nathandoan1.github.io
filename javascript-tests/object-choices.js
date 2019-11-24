@@ -42,4 +42,16 @@ functionObject.sayName();
 const customClass = new CustomClass();
 customClass.sayName();
 
+function Foo() {
+    this.bar = function() {
+        return 'bar';
+    }
+
+    Foo.prototype.qux = function() {
+        return 'qux';
+    }
+}
+const foo = new Foo();
+console.log(foo.bar()); // prints bar
+console.log(foo.qux()); // prints qux 
 }
