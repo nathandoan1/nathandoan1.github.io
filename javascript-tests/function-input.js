@@ -11,6 +11,7 @@ windows.onload = () => {
     const feetToInches = (feet) => {
         return feet * 12;
     };
+    
     const milesToFeetAction = 
         document.getElementById('milesToFeetAction');
 
