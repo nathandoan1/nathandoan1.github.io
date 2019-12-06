@@ -132,4 +132,16 @@ aside {
 
 .greenBackground {
     background-color: green;
-}                
+}          
+
+.pinkBackground {
+    background-color: pink;
+}
+
+.redBackground {
+    background-color: red;
+}
+
+.orangeBackground {
+    background-color: orange;
+}

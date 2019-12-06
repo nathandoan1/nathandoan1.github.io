@@ -6,10 +6,10 @@ window.onload = function () {
         event.preventDefault();
         const value = document.querySelector('input[name="sorter"]:checked').value;
         if (value.toLowerCase() === 'green') {
-            setColor("blueBackground");
+            setColor("greenBackground");
             showChoice(value);
         } else {
-            setColor("greenBackground");
+            setColor("blueBackground");
             showChoice(value);
         }
     });
@@ -26,10 +26,10 @@ window.onload = function () {
         element.classList.add(className);
     }
     if (value.toLowerCase() === 'green') {
-        setColor("blueBackground");
+        setColor("greenBackground");
         showChoice(value);
     } else {
-        setColor("greenBackground");
+        setColor("blueBackground");
         showChoice(value);
     }
 }
