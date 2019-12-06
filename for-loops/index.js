@@ -1,5 +1,4 @@
 window.onload = () => {
-    listButton.oneclick = function() {}
 const elfCode = {
     appendToList: (list, value) => {
         const li = document.createElement("li");

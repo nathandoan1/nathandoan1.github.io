@@ -1,3 +1,4 @@
+window.onload = () => {
 let height = 5;
 if (height >= 5) {
     console.log('We have a big one');
@@ -34,7 +35,7 @@ switch(height) {
         console.log('We do not know about this one.')
 }
 
-window.onload = () => {
+
     const simpleBranchAction = document.getElementById('simpleBranchAction');
     const simpleBranchDisplay = document.getElementById('simpleBranchDisplay');
     
@@ -46,5 +47,5 @@ window.onload = () => {
             simpleBranchDisplay.textContent = 'We have a little one';
         }   
     }
-}                
+}         
     
